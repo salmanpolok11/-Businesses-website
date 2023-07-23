@@ -1,12 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light" >
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,700&family=Manrope:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600;1,800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <!--Logo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512- 
+     iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Cndn releded -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .font-poppins {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
 </head>
-<body>
+
+<body class="">
+  <header class="bg-[#C5E6F9;] w-full">
+    <nav class="mb-40">
+      <div class="navbar ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" 
+               viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m- 
+                 8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 
+             rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>services</a></li>
+              <li><a>Pricing</a></li>
+              <li><a>Testimonial</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class=" lg:ml-40">
+            <img class="" src="./img/logo 1.svg" alt="">
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-bold text-2xl ">
+            <li><a>Home</a></li>
+            <li><a>services</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Testimonial</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end lg:mr-20 ">
+       <button class=" py-1 btn btn-outline btn-primary">Login</button>
+        </div>
+      </div>
+    </nav>
+ <section class=" mt-30  pb-40 text-center space-y-10">
+     <h1 class="text-[#1A202C] lg:text-5xl font-bold text-center">Handcrafted Landing Page  <br>
+      for Startups and SaaS Businesses</h1>
+      <p class="text-2xl font-medium text-[#4A5568]">A simple, customizable, and, beautiful SaaS business 
+         focused 
+         landing page to <br>
+        make your project closer to launch!</p>
+        <button class="btn btn-active btn-neutral">Get in touch</button>
+
+        <button class="btn btn-active btn-primary">watch the video</button>
   
+        
+ </section>
+  
+
+
+
+
+
+  </header>
 </body>
+
 </html>
